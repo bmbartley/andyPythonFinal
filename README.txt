@@ -1,7 +1,10 @@
 # andyPythonFinal
 The fruits of my labor
 
-This tool performs a "density extraction" on marine species data, which creates a single shape file that will be used as modeling input in NAEMO (Navy Acoustic Effects Model).  It is a three step process which first performs some directory and data checks, creates the necessary folders if they are not present, and then clips the target species data by an existing area of interest (AOI) file.  Then the third and final tool checks over the data to make sure it is the correct file type and in the proper coordinate system.  
+This tool performs a "density extraction" on marine species data, which creates a single shape file that will be used as modeling
+input in NAEMO (Navy Acoustic Effects Model).  It is a three step process which first performs some directory and data checks, 
+creates the necessary folders if they are not present, and then clips the target species data by an existing area of interest (AOI) file.
+Then the third and final tool checks over the data to make sure it is the correct file type and in the proper coordinate system.  
 
 # The first tool identifies an Area of Interest (AOI) as a clipping feature, checks its validity, then proceeds
 # to clip whatever the target species are. The AOI file must contain "AOI" in the name. It also checks to see if the
